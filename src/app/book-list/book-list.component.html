@@ -1,0 +1,8 @@
+<div class="ui middle aligned selection divided list">
+    <cbm-book-list-item class="item"
+                        *ngFor="let b of books"
+                        [book]="b"
+                        [routerLink]="b.isbn"
+    >
+    </cbm-book-list-item>
+</div>
